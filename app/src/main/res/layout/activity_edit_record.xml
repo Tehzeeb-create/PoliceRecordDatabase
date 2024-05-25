@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <!-- EditText for record title -->
+
+    <!-- EditText for description -->
+    <EditText
+        android:id="@+id/editTextRecordTitle"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/blue_stroke_background"
+        android:hint="Record Title"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@id/spinnerAccessLevel"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/editTextRecordTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/blue_stroke_background"
+        android:padding="8dp">
+
+    </Spinner>
+
+
+    <!-- Button to save changes -->
+
+    <Spinner
+        android:id="@id/spinnerStaffOrCriminal"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/spinnerAccessLevel"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/blue_stroke_background"
+        android:padding="8dp">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/spinnerStaffOrCriminal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:hint="Description"
+        android:background="@drawable/blue_stroke_background"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button"
+        android:text="Save Changes" />
+
+</RelativeLayout>

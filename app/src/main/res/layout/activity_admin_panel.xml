@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel"
+    >
+
+    <!-- Image Button for "Enter Record" -->
+
+    <!-- Image Button for "Generate Record" -->
+    <ImageButton
+        android:id="@+id/enterRecordButton"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_crop"
+        android:contentDescription="Enter Record Button"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_enter_record" />
+
+    <ImageButton
+        android:id="@+id/generateRecordButton"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/enterRecordButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_generate_record"
+        android:background="@drawable/rounded_crop"
+        android:contentDescription="Generate Record Button" />
+
+    <!-- Image Button for "Edit or Delete Record" -->
+    <ImageButton
+        android:id="@+id/editDeleteRecordButton"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/generateRecordButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_edit_delete_record"
+        android:background="@drawable/rounded_crop"
+        android:contentDescription="Edit or Delete Record Button" />
+
+    <!-- Add other UI elements or adjust the layout as needed -->
+
+</RelativeLayout>

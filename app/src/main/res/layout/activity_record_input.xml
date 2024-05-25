@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+
+    <EditText
+        android:id="@+id/editTextRecordTitle"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:hint=" Record Title"
+        android:background="@drawable/blue_stroke_background"/>
+
+    <Spinner
+        android:id="@+id/spinnerAccessLevel"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_stroke_background"/>
+
+    <Spinner
+        android:id="@+id/spinnerstaffOrCriminal"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blue_stroke_background"/>
+
+    <EditText
+        android:id="@+id/editdescription"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:hint="Description"
+        android:background="@drawable/blue_stroke_background"/>
+
+    <Button
+        android:id="@+id/btnSaveRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Record"
+        android:background="@drawable/button"
+        />
+
+</LinearLayout>

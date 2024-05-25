@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178284985635",
+    "project_id": "policedatabase-fe13f",
+    "storage_bucket": "policedatabase-fe13f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178284985635:android:bfa732594be384e567e096",
+        "android_client_info": {
+          "package_name": "com.vu.policerecorddatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOWWLZ2FHyYwWXEgWYVQAoQ1ACuikAXms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
